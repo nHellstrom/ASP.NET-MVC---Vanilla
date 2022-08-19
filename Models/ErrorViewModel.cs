@@ -1,4 +1,4 @@
-namespace NormalizedTemplate.Models
+namespace VanillaMVC.Models
 {
     public class ErrorViewModel
     {
