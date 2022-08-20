@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "VanillaMVC": {
+    "SaltyBook": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
