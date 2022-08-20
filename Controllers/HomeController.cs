@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SaltyBook.Models;
+using VanillaMVC.Models;
 using System.Diagnostics;
 
-namespace SaltyBook.Controllers
+namespace VanillaMVC.Controllers
 {
     public class HomeController : Controller
     {

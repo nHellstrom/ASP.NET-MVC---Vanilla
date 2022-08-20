@@ -1,32 +1,8 @@
-﻿@using SaltyBook.Controllers;
-
-@{
+﻿@{
     ViewData["Title"] = "Home Page";
-    string currentTheme = ThemeController.Theme;
 }
 
-<h1 class="hero-welcome-header">Welcome</h1>
-<div class="flex">
-
-
-    <div class="hero-text-area">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem voluptas labore consequuntur libero enim
-            quod
-            exercitationem recusandae possimus vel, excepturi maxime, delectus quae harum ipsum nobis officiis molestias
-            accusantium eaque?</p>
-        <h2>Lorem</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, tempore.</p>
-    </div>
-    <div class="vertical-flex">
-
-        <div class="hover-button" onclick="ThemeController.SwitchTheme()">
-            @currentTheme
-        </div>
-        <div class="hover-button">
-            🤍
-        </div>
-        <div class="hover-button">
-            🤍
-        </div>
-    </div>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
